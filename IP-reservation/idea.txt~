@@ -1,0 +1,18 @@
+script, das 
+- regelmäßig ausgeführt wird
+- die beiden (konfigurierbar) Subnetze scannt
+- jede belegte IP zusammen mit MAC erinnert
+- jede belegte IP zusammen mit MAC für (Reservierdauer) in (Reservierliste) speichert
+- (Reservierliste) pflegen, numerisch sortiert nach IP, im LAN auf Fileserver
+- Alarm, wenn: IP mehrfach vergeben ist
+- Alarm, wenn: IP innerhalb der (Reservierungsdauer) an eine andere MAC vergeben ist
+- Nachricht an MV, wenn neue IP im (non-private) Adressbereich
+
+Konfiguration:
+- Subnetz , dazu jeweils Reservierdauer je IP
+- non-private Adressbereich
+
+Wunsch:
+- Webservice: Parameter: Wunsch-IP, Antwort: {istFrei|istBelegt}
+
+

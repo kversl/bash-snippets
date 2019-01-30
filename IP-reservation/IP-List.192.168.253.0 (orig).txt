@@ -1,0 +1,37 @@
+ _____________________________________________________________________________
+ Reserved IPs in Subnet: , Reservation duration: 10 days
+ _____________________________________________________________________________
+              IP                 MAC    last-seen          remarks
+ -----------------------------------------------------------------------------
+  192.168.253.20   00:13:d3:b9:62:7f   2017-12-08          060   MICRO-STAR INTERNATIONAL CO., LTD.
+  192.168.253.21   00:19:99:b0:73:f5   2017-12-08          060   Fujitsu Siemens Computers
+  192.168.253.41   18:a9:05:ef:f9:9a   2017-12-08          060   Unknown vendor
+  192.168.253.51   b4:39:d6:07:cb:c0   2017-12-08          060   Unknown vendor
+  192.168.253.53   00:19:99:b3:38:2e   2017-12-08          060   Fujitsu Siemens Computers
+  192.168.253.54   b4:39:d6:07:4c:60   2017-12-08          060   Unknown vendor
+  192.168.253.60   00:a0:57:14:83:df   2017-12-08          060   LANCOM Systems GmbH
+  192.168.253.62   00:a0:57:14:83:df   2017-12-08          060   LANCOM Systems GmbH
+  192.168.253.63   00:a0:57:14:83:df   2017-12-08          060   LANCOM Systems GmbH
+  192.168.253.69   00:a0:57:14:83:df   2017-12-08          060   LANCOM Systems GmbH
+  192.168.253.91   00:17:c8:11:af:6c   2017-12-08          060   Kyocera Mita Corporation
+  192.168.253.92   54:4a:16:c1:6b:e8   2017-12-08          060   Unknown vendor
+  192.168.253.94   00:17:c8:24:42:c0   2017-12-08          060   Kyocera Mita Corporation
+ 192.168.253.100   00:0c:29:35:1b:4d   2017-12-08          060   VMware, Inc.
+ 192.168.253.101   00:0c:29:35:1b:4d   2017-12-08          060   VMware, Inc.
+ 192.168.253.112   00:19:99:b0:70:50   2017-12-08          060   Fujitsu Siemens Computers
+ 192.168.253.113   b8:ae:ed:ec:24:1d   2017-12-08          060   Unknown vendor
+ 192.168.253.114   00:19:99:c6:57:8e   2017-12-08          060   Fujitsu Siemens Computers
+ 192.168.253.117   00:1c:7e:67:79:1d   2017-12-08          060   Toshiba
+ 192.168.253.165   74:6a:8f:00:16:ed   2017-12-08          060   Unknown vendor
+ 192.168.253.166   74:6a:8f:00:16:e4   2017-12-08          060   Unknown vendor
+ 192.168.253.177   b8:ae:ed:7c:ca:7e   2017-12-08          060   Unknown vendor
+ 192.168.253.201   b8:ae:ed:ec:25:32   2017-12-08          060   Unknown vendor
+ 192.168.253.204   b8:ae:ed:ec:62:8d   2017-12-08          060   Unknown vendor
+ 192.168.253.255          2017-12-08   2017-12-08                                       
+                                                    
+ -----------------------------------------------------------------------------
+ generator:./netdiscover2.sh  written By:Versl  Admin:?
+ based on: netdiscover.
+ requirements: bash, date, netdiscover, sudo
+ -----------------------------------------------------------------------------
+

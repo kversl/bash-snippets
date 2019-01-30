@@ -1,0 +1,43 @@
+ _____________________________________________________________________________
+   IP            At MAC Address      Count  Len   MAC Vendor                   
+ ----------------------------------------------------------------------------- 
+ 192.168.253.1   18:a9:05:ef:f9:9a   2017-11-20   060   Unknown vendor
+ 192.168.253.51  b4:39:d6:07:cb:c0   2017-11-20   060   Unknown vendor
+ 192.168.253.54  b4:39:d6:07:4c:60   2017-11-20   060   Unknown vendor
+ 192.168.253.60  00:a0:57:14:83:df   2017-11-20   060   LANCOM Systems GmbH
+ 192.168.253.62  00:a0:57:14:83:df   2017-11-20   060   LANCOM Systems GmbH
+ 192.168.253.63  00:a0:57:14:83:df   2017-11-20   060   LANCOM Systems GmbH
+ 192.168.253.69  00:a0:57:14:83:df   2017-11-20   060   LANCOM Systems GmbH
+ 192.168.253.77  e8:40:f2:57:c2:99   2017-11-20   060   Unknown vendor
+ 192.168.253.91  00:17:c8:11:af:6c   2017-11-20   060   Kyocera Mita Corporation
+ 192.168.253.92  54:4a:16:c1:6b:e8   2017-11-20   060   Unknown vendor
+ 192.168.253.94  00:17:c8:24:42:c0   2017-11-20   060   Kyocera Mita Corporation
+ 192.168.253.101 00:0c:29:35:1b:4d   2017-11-20   060   VMware, Inc.
+ 192.168.253.112 00:19:99:b0:70:50   2017-11-20   060   Fujitsu Siemens Computers
+ 192.168.253.113 b8:ae:ed:ec:24:1d   2017-11-20   060   Unknown vendor
+ 192.168.253.114 00:19:99:c6:57:8e   2017-11-20   060   Fujitsu Siemens Computers
+ 192.168.253.117 00:1c:7e:67:79:1d   2017-11-20   060   Toshiba
+ 192.168.253.120 a0:3e:6b:af:cf:cb   2017-11-20   060   Unknown vendor
+ 192.168.253.165 74:6a:8f:00:16:ed   2017-11-12   060   Unknown vendor 
+ 192.168.253.166 74:6a:8f:00:16:e4   2017-11-20   060   Unknown vendor Markus Söders 
+ 192.168.253.177 b8:ae:ed:7c:ca:7e   2017-11-20   060   Unknown vendor
+ 192.168.253.201 b8:ae:ed:ec:25:32   2017-11-20   060   Unknown vendor
+ 192.168.253.202 b8:ae:ed:eb:70:57   2017-11-20   060   Unknown vendor
+ 192.168.253.203 b8:ae:ed:ec:62:8d   2017-11-20   060   Unknown vendor
+ 192.168.253.212 08:00:27:81:ca:c4   2017-11-20   060   CADMUS COMPUTER SYSTEMS
+ 192.168.253.213 08:00:27:a2:39:19   2017-11-20   060   CADMUS COMPUTER SYSTEMS
+ 192.168.253.214 d8:d3:85:63:8e:fa   2017-11-20   060   Unknown vendor
+ 192.168.253.215 2c:44:fd:1a:de:68   2017-11-20   060   Unknown vendor
+ 192.168.253.218 08:00:27:e3:0c:35   2017-11-20   060   CADMUS COMPUTER SYSTEMS
+ 192.168.253.222 00:a0:57:14:83:df   2017-11-20   060   LANCOM Systems GmbH
+ 192.168.253.230 08:00:27:bd:96:82   2017-11-20   060   CADMUS COMPUTER SYSTEMS
+ 192.168.253.233 00:c0:b7:58:53:33   2017-11-20   060   AMERICAN POWER CONVERSION CORP
+ 192.168.253.239 4c:e6:76:48:39:5e   2017-11-20   060   Unknown vendor
+ 192.168.253.240 00:19:99:b8:21:fe   2017-11-20   060   Fujitsu Siemens Computers
+ 192.168.253.241 00:0c:29:67:44:f6   2017-11-20   060   VMware, Inc.
+ 192.168.253.242 00:0c:29:cf:38:48   2017-11-20   060   VMware, Inc.
+ 192.168.253.243 00:0c:29:ed:c5:6e   2017-11-20   060   VMware, Inc.
+ 192.168.253.244 00:0c:29:0f:2c:9f   2017-11-20   060   VMware, Inc.
+
+
+-- Active scan completed, 40 Hosts found.
