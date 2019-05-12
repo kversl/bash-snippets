@@ -12,20 +12,19 @@
 USAGE="
 ====================================
 adds EXIF coordinates to an IMAGE
-   inside a CaptureOne CATALOG.
+   inside a CaptureOne COCATALOG
+   or in a COSESSION
 ====================================
 prerequisites:
-- CaptureOne catalog: "$CATALOGBUNDLE"
+- remembers CaptureOne cocatalog: "$CC"
 - do not replace existing coordinates 
-- limit to one IMAGE
-====================================
-USAGE:
+- limit to one IMAGE, if not a range
 ====================================
 required parameters 
-1. geoCoordinates as decimal string latitude/longitude
+1. geoCoordinates as decimal numbers string \"[latitude]/[longitude]\"
 2. one or several (part of) IMAGE names (filename)
    or
-2. range of consecutive IMAGE NAMES (full name required) 
+2. range of consecutive full IMAGE NAMES
 
 optional parameters
 -c \"path/to/CaptureOne catalog\" 
@@ -33,6 +32,7 @@ optional parameters
 "
 PREFERENCESDIR="${HOME}/.config"
 PREFERENCESFILE="$0.pref"
+CCDBPATTERN="*.cocatalogdb"
 
 prefsdirCheck(){
   if [ ! -d "$PREFERENCESDIR" ]; then mkdir -p "$PREFERENCESDIR" ; fi
@@ -40,7 +40,7 @@ prefsdirCheck(){
 
 writeprefs(){
   prefsdirCheck
-  echo "CATALOGBUNDLE=${CATALOGBUNDLE}" > "${PREFERENCESDIR}/${PREFERENCESFILE}"
+  echo "CC=${CC}" > "${PREFERENCESDIR}/${PREFERENCESFILE}"
 }
 
 # read preferences 
@@ -70,7 +70,20 @@ while [[ $# -gt 0 ]]; do
 done
 set -- "${POSITIONAL[@]}"             # restore positional parameters
 
-echo "CATALOGBUNDLE=$CATALOGBUNDLE"
+======================================
+
+if [[ "${POSITIONAL[1]}" == *?-?* ]]; then
+  # imagename contains a hyphen
+  echo "image name contains a hyphen. Range not implemented yet."
+  exit
+else
+  IMAGEPATTERN="${POSITIONAL[1]}"
+fi
+
+
+
+
+
 
 if [[ $WRITEPREFS -eq 1 ]]; then  
   writeprefs
