@@ -4,7 +4,7 @@ function ipstring_to_ipdecimal(){
   #### split ipv4 into octets ##########################################
   if  [[ "$IPv4" =~ ^[[:digit:]]*.[[:digit:]]*.[[:digit:]]*.[[:digit:]]*$ ]]
   then
-    IFS='.' read -r -a octet <<< $IPv4
+    IFS='.' read -r -a octet <<< $IPv4  ## word split
     ### octets=(192 168 253 178)  in Binärzahl umwandeln
     echo $(( (${octet[0]}<<24) + (${octet[1]}<<16) + (${octet[2]}<<8) + ${octet[3]} ))
   else
@@ -48,3 +48,6 @@ function ip_in_subnet() {
   [[ $subnet0dec == $ipd0 ]]
   echo $?
 }
+
+
+
